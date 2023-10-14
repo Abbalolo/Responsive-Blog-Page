@@ -163,7 +163,7 @@ function Home() {
         <div className=" h-[2px] bg-gray-200 mt-3  overflow-hidden rounded-md"></div>
 
         <div className=" md:flex md:grid-cols-2 gap-16 mt-5">
-          <div className="md:w-[60%]">
+          <div className="md:w-[75%]">
             {blogs.map((blog) => (
               <div
                 key={blog.id}
@@ -232,7 +232,7 @@ function Home() {
             ))}
           </div>
 
-          <div className="md:w-[40%] md:block hidden">
+          <div className="md:w-[35%] md:block hidden">
             {online ? (
               <div className="flex items-center justify-between">
                 <div className="text-xs font-medium flex items-center gap-2">
